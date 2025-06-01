@@ -1,0 +1,30 @@
+.pizzaView-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 2rem;
+}
+.images img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+.pizzaView-container p{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+}
+span{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #43eb34;
+}
+@media( max-width: 768px){
+    .pizzaView-images{
+        grid-template-columns: 1fr;
+    }
+}

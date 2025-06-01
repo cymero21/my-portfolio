@@ -1,0 +1,5 @@
+.ocean .pizzaView-container p{
+    max-width: 700px;
+    margin: auto;
+    text-transform: capitalize;
+}
