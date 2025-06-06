@@ -335,6 +335,7 @@ html, body{
     text-align: center;
     opacity: 0;
     transition: 0.3s ease;
+    cursor: pointer;
 }
 .card:hover button{
     opacity: 1;
