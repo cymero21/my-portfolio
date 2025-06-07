@@ -124,11 +124,13 @@ html, body{
         padding: 30px 20px;
         transition: top 0.75s ease;
         border-radius: 0;
+        color: black;
      }
      .links a{
          padding: 10px 0;
+         color: black;
      }
-     .links.active{
+     .links.open{
          top: 60px;
      }
      .menu-toggle{
